@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato com a Imprensa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fale com a Imprensa</h1>
+        <p>Entre em contato conosco pelo WhatsApp.</p>
+        <a href="https://wa.me/5514997467490?text=Olá,%20gostaria%20de%20mais%20informações!" class="whatsapp-button"> 
+            Contatar via WhatsApp
+        </a>
+    </div>
+</body>
+</html>
+
+
+
+<!-- numero do ponia  -->
