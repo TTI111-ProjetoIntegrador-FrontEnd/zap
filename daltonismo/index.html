@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Modo Daltonismo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <button onclick="ativarTema('normal')">Normal</button>
+        <button onclick="ativarTema('pretoBranco')">Preto e Branco</button>
+        <button onclick="ativarTema('protanopia')">Protanopia</button>
+        <button onclick="ativarTema('deuteranopia')">Deuteranopia</button>
+        <button onclick="ativarTema('tritanopia')">Tritanopia</button>
+        <button onclick="ativarTema('monocromatico')">Monocromático</button>
+    </div>
+
+    <div class="container">
+        <div class="topo">
+            <img src="logo.png" alt="Logo" class="logo">
+            <button class="botao-voltar">Voltar</button>
+        </div>
+        <h1>Bem-vindo ao nosso site</h1>
+        <div class="membros">
+            <div class="membro">
+                <div class="foto-membro"><img src="foto.jpg" alt="Foto do Membro"></div>
+                <div class="info">
+                    <h2>Nome do Membro</h2>
+                    <p>Descrição do membro.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

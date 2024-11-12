@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #1b347b;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0a2463;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.botao-voltar {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffb703;
+    color: #0a2463;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.membros {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.membro {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+.foto-membro {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.foto-membro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info h2 {
+    font-size: 18px;
+}
+
+.info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Barra Lateral para Modos de Acessibilidade */
+.sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+    background-color: #333;
+}
+
+.sidebar button {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
